@@ -10,6 +10,6 @@ def count_it(seq):
     cnt = collections.Counter(lst)
     return dict(cnt.most_common(3))
 
-st = input('Введите строку из чисел:\n')
+st = input('Введите строки чисел:\n')
 
 print(count_it(st))
